@@ -1,0 +1,11 @@
+t=int(input())
+while(t):
+    log=input()
+    size=len(log)
+    for i in range(0,size,2):
+        if(log[i]==log[i+1]):
+            print("no")
+            break
+    else:
+        print("yes")
+    t-=1
