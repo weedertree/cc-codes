@@ -1,0 +1,7 @@
+for i in range(int(input())):
+    n = list(map(int, input().split()))
+    x = str(n)
+    if "7" in x:
+        print('yes')
+    else:
+        print('no')
